@@ -47,7 +47,7 @@ RESET = Style.RESET_ALL
 # -------------------------
 # Assuming Amazon.csv is available in the project root directory
 DATA_FILE = 'Amazon.csv'
-# BASE_DIR is '.../src'. We calculate the PROJECT_ROOT by going up one level.
+# BASE_DIR is '.../src'. To calculate the PROJECT_ROOT by going up one level.
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.join(BASE_DIR, '..')
 OUTPUTS_DIR = os.path.join(BASE_DIR, 'outputs_amazon_advanced')
